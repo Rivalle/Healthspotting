@@ -11,13 +11,13 @@ h3 {
 .container {
   width: 100%;
   height:100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(images/health.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(health.jpg);
   background-position: center;
-  ba
-  /* background-size: cover; */
+  background-size: cover;
   padding-left: 8%;
   padding-right: 8%;
   box-sizing: border-box;
+
 }
 .navbar {
   height: 12%;
@@ -75,6 +75,36 @@ h1{
   font-size: 16px;
   /* line-height: 15px; */
 }
-.kotsiroselida {
-  margin: 20px;
+button {
+  width: 180px;
+  padding: 12px 0 ;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 2px solid #009688;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  font-size: 20px;
+  z-index: 0;
+}
+span {
+  background: #009688;
+  height: 100%;
+  width: 0;
+  border-radius: 25px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 0.5s;
+}
+button:hover span {
+  width: 100%;
+}
+button:hover{
+  border: none;
 }
