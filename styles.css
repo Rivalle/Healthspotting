@@ -13,7 +13,8 @@ h3 {
   height:100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(health.jpg);
   background-position: center;
-  background-size: cover;
+  ba
+  /* background-size: cover; */
   padding-left: 8%;
   padding-right: 8%;
   box-sizing: border-box;
@@ -22,8 +23,8 @@ h3 {
   height: 12%;
   display: flex;
   align-items: center;
-  /* background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
-  opacity: 0.9; */
+  /* background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);*/
+  /*opacity: 0.9; /
   /* background-color: rgb(110, 95, 56); */
 }
 nav {
@@ -69,8 +70,11 @@ h1{
   color: #fff;
   font-size: 90px;
 }
-p {
+.column p {
   color: #fff;
   font-size: 16px;
   /* line-height: 15px; */
+}
+.kotsiroselida {
+  margin: 20px;
 }
