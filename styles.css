@@ -45,3 +45,19 @@ ul.navbar-nav {
   font-weight: 640;
   font-size: 17px;
 }
+
+
+#slider
+{
+  width: 100%;
+}
+.carousel-caption
+{
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial!important;
+}
+.carousel-caption h5
+{
+  font-size: 50px;
+}
