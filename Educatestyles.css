@@ -1,0 +1,17 @@
+.separator{
+  position: relative;
+}
+.textwrap{
+float: bottom;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.textwrap2{
+float: left;
+margin:10px;
+}
+.pfont{
+  font-style: italic;
+  color: black;
+}
