@@ -1,15 +1,8 @@
 .separator{
-  position: relative;
-}
-.textwrap{
-float: bottom;
-display: block;
-margin-left: auto;
-margin-right: auto;
-}
-.textwrap2{
-float: left;
-margin:10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .pfont{
   font-style: italic;
