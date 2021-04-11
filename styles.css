@@ -2,19 +2,16 @@
   margin: 0;
   padding: 0;
 }
+
 #nav-bar
 {
   position: sticky;
   top:0;
   z-index: 10;
 }
-.navbar-brand img
-{
-  height: 40px;
-  padding-left: 30px;
-}
 a.navbar-brand
 {
+  /* margin-left: 50%; */
   font-weight: 400;
 }
 .navbar-nav li
@@ -22,8 +19,8 @@ a.navbar-brand
   padding: 0 10px;
 }
 ul.navbar-nav {
-  right: 90%;
-  transform: translateX(170%);
+   /* transform: translateX(200%); */
+   margin-left: 55%;
 }
 .navbar-nav li a
 {
