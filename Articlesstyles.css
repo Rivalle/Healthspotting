@@ -5,12 +5,29 @@
   background-attachment: fixed;
   background-image: linear-gradient(to bottom,#222831,#393e46,#00adb5);
 }
-.pfont{
-  margin-top: 10px;
+.margimg{
   margin-left: 15px;
-  color: white;
+  width: 800px;
+  height: 500px;
 }
-.h4style{
+.pfont{
+  margin-top: 30px;
+  margin-left: 25px;
+  color: white;
+  font-size: 25px;
+}
+.h3style{
   font-weight: bold;
   color: white;
+  font-size: 30px;
+  margin-left: 20px;
+}
+.articleline{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 100px;
+  margin-bottom: 20px;
 }

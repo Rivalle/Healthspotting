@@ -1,10 +1,19 @@
-.separator{
+/* .separator{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top:25px;
+} */
+.pfont {
+  padding: 15px;
 }
-.pfont{
-  font-style: italic;
+.pfont h3{
+  font-weight: 1000;
   color: black;
+}
+.separator {
+  padding: 50px;
+  display: block;
+  text-align: center;
 }
