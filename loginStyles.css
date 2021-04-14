@@ -1,0 +1,48 @@
+.bodycolor{
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: url(images/login.jpg);
+  background-size: 100%;
+
+}
+.separator{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  height: 400px;
+  margin-top: 250px;
+  margin-bottom: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  border-radius: 25px;
+  padding:15px;
+  background-color: white;
+}
+.chbox{
+  float:left;
+  position: relative;
+  right: 225px;
+  top: 10px;
+}
+.button1{
+  backround-color: black;
+  height: 40px;
+  width: 200px;
+  border-radius: 20px;
+  border: solid 2px black;
+  margin-top: 5px;
+}
+.button2{
+  backround-color: white;
+  height: 40px;
+  width: 200px;
+  border-radius: 20px;
+  border: solid 2px black;
+  margin-top:5px;
+}
