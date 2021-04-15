@@ -156,3 +156,31 @@ a.navbar-brand
 {
   margin: 40px;
 }
+
+#tips
+{
+  margin: 50px;
+  margin-top: 200px;
+
+}
+
+#tips p
+{
+  font-size: 25px;
+}a
+
+#tips h4
+{
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.row
+{
+  margin: 40px;
+}
+
+#firstline {
+  margin-bottom: 100px;
+  margin-top: -100px;
+}
