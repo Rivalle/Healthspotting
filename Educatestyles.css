@@ -5,6 +5,20 @@
   align-items: center;
   margin-top:25px;
 } */
+
+
+
+body:not(nav){
+  
+  text-align: center;
+  top: 50%;
+  width: 100%;
+  font-weight: normal;
+  font-size: 20px;
+  color: white;
+
+}
+
 .pfont {
   padding: 15px;
 }
