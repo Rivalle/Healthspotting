@@ -52,13 +52,20 @@
     </nav>
   </section>
   <div class="separator">
-    <h2>Enter your username</h2>
+    <h4>Enter your credentials</h4>
+    <hr>
     <input type="text" id="inputUsername" class="form-control" placeholder="Username" autofocus="" autocomplete="off" maxlength="80" required="">
-    <h2>Enter your password</h2>
+    <hr>
     <input type="password" id="inputPassword" class="form-control" placeholder="Password" maxlength="25" required="">
-    <span class="chbox">
-      <input type="checkbox" checked="checked" value="1">Remember me
-    </span>
+    <!-- <span class="chbox"> -->
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+      <label class="form-check-label" for="flexCheckChecked">
+        Remember me
+      </label>
+      </div>
+      <!-- <input class="" type="checkbox" checked="checked" value="1"><p>Remember me</p> -->
+    <!-- </span> -->
     <button class="button1" type="button" name="button">Enter</button>
     <button class="button2" type="button" name="button">Register</button>
   </div>

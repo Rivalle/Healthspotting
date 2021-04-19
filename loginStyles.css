@@ -30,19 +30,29 @@
   right: 225px;
   top: 10px;
 }
-.button1{
-  backround-color: black;
+body div .button1{
+  background-color: #4CAF50;
   height: 40px;
   width: 200px;
-  border-radius: 20px;
-  border: solid 2px black;
+  border-radius: 5px;
   margin-top: 5px;
+  color: white;
+  display: inline-block;
+  border: none;
 }
 .button2{
-  backround-color: white;
+  background-color: #33ADFF;
   height: 40px;
   width: 200px;
-  border-radius: 20px;
-  border: solid 2px black;
+  border-radius: 5px;
   margin-top:5px;
+  color: white;
+  display: inline-block;
+  border: none;
+}
+.button1:hover{
+  background-color: #4C9F40;
+}
+.button2:hover{
+  background-color: #1AA3FF;
 }
