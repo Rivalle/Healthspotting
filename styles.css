@@ -11,9 +11,19 @@
   z-index: 10;
 }
 .navbar-brand {
-  text-shadow: 2px 2px 7px #FF0000;
   padding-left: 5vh;
   font-weight:lighter;
+}
+@media screen and (max-width:500px){
+  .navbar-brand {
+    padding-left: 0vh;
+    font-weight:lighter;
+  }
+  .carousel-caption h5
+  {
+    /* font-size: 40px; */
+    color: silver;
+  }
 }
 .navbar-nav li
 {
@@ -52,9 +62,7 @@
 .carousel-caption h5
 {
   font-size: 80px;
-  /* font-weight: 300; */
   color: silver;
-
 }
 
 

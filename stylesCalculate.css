@@ -5,21 +5,18 @@
   background-attachment: fixed;
   background-image: linear-gradient(to bottom right, pink, white, lightgreen, green);
 }
-.separator{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  align-items: center;
-  height: 100vh;
-  width: inherit;
-}
-.box2{
-  position: relative;top:20px; left:20px;
+.container{
+  box-sizing: border-box;
 }
 .h3{
   color:black; text-shadow: 2px 2px 2px white;
 }
 .image{
   box-shadow: 5px 5px 5px black;
+}
+.card2{
+  width:auto;
+}
+.row2{
+  margin-bottom: 40vh;
 }
