@@ -10,10 +10,10 @@
   top:0;
   z-index: 10;
 }
-a.navbar-brand
-{
-  /* margin-left: 50%; */
-  font-weight: 400;
+.navbar-brand {
+  text-shadow: 2px 2px 7px #FF0000;
+  padding-left: 5vh;
+  font-weight:lighter;
 }
 .navbar-nav li
 {
@@ -34,7 +34,7 @@ a.navbar-brand
 {
   border: none!important;
 }
-.nav-link
+.nav-link,a.navbar-brand
 {
   font-weight: 640;
   font-size: 17px;
@@ -149,7 +149,8 @@ a.navbar-brand
 }
  #about
 {
-  margin-bottom: 60px;
+  margin-top: 90px;
+  margin-bottom: 100px;
 }
 #tips{
   box-sizing: border-box;
