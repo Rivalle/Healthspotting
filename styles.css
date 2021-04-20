@@ -1,12 +1,9 @@
 *{
   margin: 0;
   padding: 0;
+  font-family: Arial;
+  box-sizing: border-box;
 }
-/* .navbar-nav li #login{
-  border: 2px solid black;
-  border-radius: 10px;
-  color: black;
-} */
 #nav-bar
 {
   position: sticky;
@@ -55,10 +52,9 @@ a.navbar-brand
 .carousel-caption h5
 {
   font-size: 80px;
-}
-.h5form{
-  font-family: 'cursive';
+  /* font-weight: 300; */
   color: silver;
+
 }
 
 
@@ -179,7 +175,26 @@ a.navbar-brand
   margin-bottom: 40px;
 } */
 
-#firstline {
+#firstline{
   margin-bottom: 100px;
   margin-top: -100px;
+}
+.parallax-section{
+  margin-top: 100px;
+  background-size: cover!important;
+  overflow: hidden;
+  background-attachment: fixed!important;
+}
+
+.main-effects{
+  text-align: center;
+  background: url(images/IWANNIC.jpg);
+  background-repeat: no-repeat;
+  height: 50vh;
+  position: relative;
+}
+#quote{
+    font-size: 35px;
+    font-weight: 300;
+    color: #fff;
 }

@@ -1,3 +1,6 @@
+*{
+  font-family: Arial;
+}
 .separator{
   display: flex;
   flex-direction: row;

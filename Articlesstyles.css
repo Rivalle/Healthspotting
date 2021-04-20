@@ -1,41 +1,6 @@
-/* .bodycolor{
-  height: 100%;
-  margin: 0;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-
-}
-.margimg{
-  margin-left: 15px;
-  width: 800px;
-  height: 500px;
-}
-.pfont{
-  margin-top: 30px;
-  margin-left: 25px;
-  color: black;
-  font-size: 25px;
-}
-.h3style{
-  font-weight: bold;
-  color: black;
-  font-size: 30px;
-  margin-left: 20px;
-}
-.articleline{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-left: 25%;
-  margin-right: 25%;
-  margin-top: 100px;
-  margin-bottom: 20px;
-} */
-/* *{
-  box-sizing: border-box;
-} */
 *{
   box-sizing: border-box;
+  font-family: Arial;
 }
 #about .row{
   margin-top: 50px;

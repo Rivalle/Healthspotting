@@ -1,5 +1,6 @@
 *{
   box-sizing: border-box;
+  font-family: Arial;
 }
 p,ol{
     font-size: 15px;
@@ -27,7 +28,6 @@ p,ol{
   background-repeat: no-repeat;
   height: 60vh;
 }
-
 .parallax-section{
   background-size: cover!important;
   overflow: hidden;
