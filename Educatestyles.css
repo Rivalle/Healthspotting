@@ -1,22 +1,61 @@
-/* .separator{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top:25px;
-} */
-.pfont {
-  padding: 15px;
+.bodycolor{
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
 }
-.pfont h3{
-  font-weight: 1000px;
+.pfont{
+  margin-top: 50px;
+  margin-left: 25px;
   color: black;
   font-size: 25px;
 }
-.separator {
-  padding: 50px;
-  display: block;
-  text-align: center;
+.h3style{
+  font-weight: bold;
+  color: black;
+  font-size: 40px;
+  margin-left: 20px;
+}
+.articleline{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.main-effects{
+  background: url(images/education.jpg);
+  background-repeat: no-repeat;
+  height: 60vh;
+}
+
+.parallax-section{
+  background-size: cover!important;
+  overflow: hidden;
+  background-attachment: fixed!important;
+}
+.textwrap{
+  margin: 40px;
+}
+#home h1{
+    left: 0;
+    line-height: 200px;
+    margin-top: 150px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    font-weight: bolder;
+    font-size: 60px;
+    color: white;
+    font-family: serif;
+}
+hr{
+  color: black;
 }
 .pfont p {
   line-height: 25px;

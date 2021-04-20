@@ -12,7 +12,10 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
-  <title></title>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
 </head>
 <body class="bodycolor">
   <!-- Navigation bar -->
@@ -29,7 +32,7 @@
               <a class="nav-link active" aria-current="page" href="Index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link"  href="#">About</a>
+              <a class="nav-link"  href="Index.html">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="Articles.html">Articles</a>
@@ -41,13 +44,26 @@
               <a class="nav-link"  href="CalculateYourself.html">Calculate</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link"  href="#">Login/Sign-up</a>
+              <a class="nav-link border border-dark rounded" id="login" href="login.html">Login/Sign-up</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
   </section>
+
+  
+
+   <section id="home" class="main-effects parallax-section">
+     <div class=" container">
+     <div class="row justify-content-center">
+       <div class="col-md-12 col-sm-12 text-align">
+        <h1>Information</h1>
+       </div>
+     </div>
+     </div>
+   </section>
+
   <section>
     <article class="articleline">
       <h3 class="h3style">What are the mental health benefits of exercise?</h3>
@@ -103,39 +119,35 @@
       </ul>
     </article>
   </section>
-  <div class="footer-dark">
-      <footer>
-          <div class="container">
-              <div class="row">
-                  <div class="col-sm-6 col-md-3 item">
-                      <h3>Navigate</h3>
-                      <ul>
-                          <li><a href="Index.html">Home</a></li>
-                          <li><a href="#">About</a></li>
-                          <li><a href="Articles.html">Articles</a></li>
-                          <li><a href="EducateYourself.html">Educate</a></li>
-                          <li><a href="CalculateYourself.html">Calculate</a></li>
-                      </ul>
-                  </div>
-                  <div class="col-sm-6 col-md-3 item">
-                      <h3>Contact</h3>
-                      <ul>
-                          <li><a href="#">Email:healthspotting@gmail.com</a></li>
-                          <li><a href="#">Tel:+302143455323</a></li>
-                          <li><a href="#">Address:Aristotle U, GR</a></li>
-                      </ul>
-                  </div>
-                  <div class="col-md-6 item text">
-                      <h3>HealthSpotting</h3>
-                      <p>Discover your perfect self</p>
-                  </div>
-                  <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+  <!-- footer -->
+  <footer class="footer-dark">
+      <div class="container">
+          <div class="row">
+              <div class="col-sm-6 col-md-3 item">
+                  <h3>Navigate</h3>
+                  <ul>
+                      <li><a href="Index.html">Home</a></li>
+                      <li><a href="#">About</a></li>
+                      <li><a href="Articles.html">Articles</a></li>
+                      <li><a href="EducateYourself.html">Educate</a></li>
+                      <li><a href="CalculateYourself.html">Calculate</a></li>
+                  </ul>
               </div>
-              <p class="copyright">HealthSpotting © 2021</p>
+              <div class="col-sm-6 col-md-3 item">
+                  <h3>Contact</h3>
+                  <ul>
+                      <li><a href="#">Email: healthspotting@gmail.com</a></li>
+                      <li><a href="#">Tel: +302143455323</a></li>
+                      <li><a href="#">Address: Aristotle U, GR</a></li>
+                  </ul>
+              </div>
+              <div class="col-md-6 item text">
+                  <h3>HealthSpotting</h3>
+                  <p>Discover your perfect self</p>
+              </div>
+              <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
           </div>
-      </footer>
-  </div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+      </div>
+  </footer>
   </body>
 </html>

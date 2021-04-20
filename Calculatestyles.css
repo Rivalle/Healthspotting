@@ -1,0 +1,36 @@
+.separator{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 100vh;
+  width: inherit;
+}
+.box2{
+  position: relative;top:20px; left:20px;
+}
+.h3{
+  color:black; text-shadow: 2px 2px 2px white;
+}
+.image{
+  box-shadow: 5px 5px 5px black;
+}
+
+body {
+	background: linear-gradient(to bottom right, red, orange, dodgerblue, deepskyblue);
+	background-size: 200% 200%;
+	animation: gradient 4s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
