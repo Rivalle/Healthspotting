@@ -71,7 +71,25 @@ hr{
   justify-content: center;
   align-items: center;
   margin-top:25px;
+<<<<<<< HEAD
 }
+=======
+} */
+
+
+
+body:not(nav){
+  
+  text-align: center;
+  top: 50%;
+  width: 100%;
+  font-weight: normal;
+  font-size: 20px;
+  color: white;
+
+}
+
+>>>>>>> a70ec05075bcdf0fe6382bd9e5cdcced7427abe0
 .pfont {
   margin-top: 30px;
   margin-left: 25px;
