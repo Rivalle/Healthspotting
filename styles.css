@@ -149,7 +149,7 @@ a.navbar-brand
 }
  #about
 {
-  margin: 40px;
+  margin-bottom: 60px;
 }
 #tips{
   box-sizing: border-box;
@@ -180,12 +180,10 @@ a.navbar-brand
   margin-top: -100px;
 }
 .parallax-section{
-  margin-top: 100px;
   background-size: cover!important;
   overflow: hidden;
   background-attachment: fixed!important;
 }
-
 .main-effects{
   text-align: center;
   background: url(images/IWANNIC.jpg);
