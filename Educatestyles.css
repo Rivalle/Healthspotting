@@ -1,32 +1,27 @@
-.bodycolor{
-  height: 100%;
-  margin: 0;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-
+*{
+  box-sizing: border-box;
 }
-.pfont{
+p,ol{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+}
+#about h3 {
+  margin: 50px;
+  font-size: 35px;
+}
+#about .row{
+  margin-bottom: 60px;
+}
+#about .col-md-6{
+  padding-top: 22px;
+  padding-bottom: 32px;
+}
+#about p{
   margin-top: 50px;
-  margin-left: 25px;
-  color: black;
-  font-size: 25px;
+  margin-bottom: 20px;
 }
-.h3style{
-  font-weight: bold;
-  color: black;
-  font-size: 40px;
-  margin-left: 20px;
-}
-.articleline{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-left: 25%;
-  margin-right: 25%;
-  margin-top: 100px;
-  margin-bottom: 50px;
-}
-
 .main-effects{
   background: url(images/education.jpg);
   background-repeat: no-repeat;
@@ -39,7 +34,8 @@
   background-attachment: fixed!important;
 }
 .textwrap{
-  margin: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 #home h1{
     left: 0;
@@ -54,9 +50,7 @@
     color: white;
     font-family: serif;
 }
+
 hr{
   color: black;
-}
-.pfont p {
-  line-height: 25px;
 }

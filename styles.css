@@ -54,7 +54,7 @@ a.navbar-brand
 }
 .carousel-caption h5
 {
-  font-size: 50px;
+  font-size: 80px;
 }
 .h5form{
   font-family: 'cursive';
@@ -155,29 +155,30 @@ a.navbar-brand
 {
   margin: 40px;
 }
-
+#tips{
+  box-sizing: border-box;
+}
 #tips
 {
-  margin: 50px;
-  margin-top: 200px;
-
+  margin-top: 180px;
 }
 
-#tips p
+/* #tips p
 {
-  font-size: 25px;
-}a
+  font-size: 20px;
+} */
 
 #tips h4
 {
   font-size: 35px;
-  font-weight: bold;
 }
 
-.row
+#tips .row
 {
-  margin: 40px;
-}
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin-bottom: 40px;
+} */
 
 #firstline {
   margin-bottom: 100px;

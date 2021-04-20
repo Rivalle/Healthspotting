@@ -1,4 +1,4 @@
-.bodycolor{
+/* .bodycolor{
   height: 100%;
   margin: 0;
   background-repeat: no-repeat;
@@ -30,8 +30,23 @@
   margin-right: 25%;
   margin-top: 100px;
   margin-bottom: 20px;
+} */
+/* *{
+  box-sizing: border-box;
+} */
+*{
+  box-sizing: border-box;
 }
-
+#about .row{
+  margin-top: 50px;
+}
+#about .col-md-6{
+  padding-top: 22px;
+  padding-bottom: 30px;
+}
+/* #about .col-md-6 img {
+    padding: 22px 0px 22px 22px;
+} */
 .main-effects{
   background: url(images/2019-12-11-mountain-day-featured-01.jpg);
   background-repeat: no-repeat;
@@ -43,8 +58,6 @@
   overflow: hidden;
   background-attachment: fixed!important;
 }
-
-
 #home h1{
     left: 0;
     line-height: 200px;
