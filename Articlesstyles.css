@@ -40,6 +40,12 @@
 #about .row{
   margin-top: 50px;
 }
+#about p {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 26px;
+  letter-spacing: 0.2px;
+}
 #about .col-md-6{
   padding-top: 22px;
   padding-bottom: 30px;

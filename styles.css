@@ -157,16 +157,15 @@ a.navbar-brand
 }
 #tips{
   box-sizing: border-box;
-}
-#tips
-{
   margin-top: 180px;
 }
-
-/* #tips p
+ #tips,#about p
 {
-  font-size: 20px;
-} */
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 26px;
+  letter-spacing: 0.2px;
+}
 
 #tips h4
 {
