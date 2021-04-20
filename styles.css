@@ -14,16 +14,15 @@
   padding-left: 5vh;
   font-weight:lighter;
 }
-@media screen and (max-width:500px){
+ @media screen and (max-width:500px){
   .navbar-brand {
     padding-left: 0vh;
     font-weight:lighter;
   }
-  .carousel-caption h5
-  {
-    /* font-size: 40px; */
-    color: silver;
+  #quote p{
+    font-size: 3vh;
   }
+
 }
 .navbar-nav li
 {
@@ -61,7 +60,7 @@
 }
 .carousel-caption h5
 {
-  font-size: 80px;
+  font-size: 7vh;
   color: silver;
 }
 
@@ -201,7 +200,7 @@
   position: relative;
 }
 #quote{
-    font-size: 35px;
+    font-size: 5vh;
     font-weight: 300;
     color: #fff;
 }
