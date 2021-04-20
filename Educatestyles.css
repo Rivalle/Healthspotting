@@ -9,11 +9,15 @@
   padding: 15px;
 }
 .pfont h3{
-  font-weight: 1000;
+  font-weight: 1000px;
   color: black;
+  font-size: 25px;
 }
 .separator {
   padding: 50px;
   display: block;
   text-align: center;
+}
+.pfont p {
+  line-height: 25px;
 }
