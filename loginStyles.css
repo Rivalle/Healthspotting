@@ -1,7 +1,7 @@
 *{
   font-family: Arial;
 }
-.bodycolor{
+body{
   height: 100%;
   margin: 0;
   background-repeat: no-repeat;
@@ -58,4 +58,14 @@ body div .button1{
 }
 .button2:hover{
   background-color: #1AA3FF;
+}
+@media only screen and (max-width: 600px) {
+  .bodycolor{
+    height: 110%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(images/loginmobile.jpg);
+    background-size: 110%;
+  }
 }
