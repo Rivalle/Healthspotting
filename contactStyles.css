@@ -11,16 +11,10 @@ input[type=text], #message{
   background: transparent;
   color: white;
 }
-<<<<<<< HEAD
 /* .cardimage{
   background-image: url(images/contact.jpg);
   background-repeat: no-repeat;
 } */
-=======
-.card{
-  border-radius: 25px;
-}
->>>>>>> f57c355d13240d75757b735af0874258e1c6ba30
 .box-margin{
   margin-top: 250px;
   margin-bottom: 300px;
