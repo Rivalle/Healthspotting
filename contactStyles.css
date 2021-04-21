@@ -1,0 +1,21 @@
+input[type=text], #message{
+  padding: 15px;
+  border: 1px solid grey;
+  border-radius: 3px;
+  width: 80%;
+  margin-left: 10%;
+  box-sizing: border-box;
+  background: transparent;
+  color: white;
+}
+.cardimage{
+  background-image: url(images/contact.jpg);
+}
+.box-margin{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+::placeholder{
+  color: red;
+  opacity:1;
+}

@@ -1,5 +1,5 @@
 # Healthspotting
-Karlettis Kuriakos o kotsiros
+Karlettis Kuriakos
 Pieris Ioannis
 Moschopoulos Trufwnas
 Dermaris Alexandros
