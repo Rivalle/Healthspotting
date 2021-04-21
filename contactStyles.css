@@ -1,3 +1,6 @@
+*{
+  font-family: Arial;
+}
 input[type=text], #message{
   padding: 15px;
   border: 1px solid grey;
@@ -8,14 +11,28 @@ input[type=text], #message{
   background: transparent;
   color: white;
 }
-.cardimage{
+/* .cardimage{
   background-image: url(images/contact.jpg);
-}
+  background-repeat: no-repeat;
+} */
 .box-margin{
-  margin-top: 20px;
+  margin-top: 250px;
+  margin-bottom: 300px;
+}
+#submit{
   margin-bottom: 20px;
 }
-::placeholder{
-  color: red;
-  opacity:1;
+body{
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: url(images/contact.jpg);
+  background-size: 100%;
 }
+/* ::placeholder #name{
+  color: red !important;
+}
+.form-dark{
+  color:white;
+} */
