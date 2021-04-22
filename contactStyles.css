@@ -11,16 +11,15 @@ input[type=text], #message{
   background: transparent;
   color: white;
 }
-/* .cardimage{
-  background-image: url(images/contact.jpg);
-  background-repeat: no-repeat;
-} */
 .box-margin{
   margin-top: 250px;
   margin-bottom: 300px;
 }
 #submit{
   margin-bottom: 20px;
+}
+#submit:hover{
+  background-color: #00b009;
 }
 body{
   height: 100%;
@@ -30,9 +29,21 @@ body{
   background-image: url(images/contact.jpg);
   background-size: 100%;
 }
-/* ::placeholder #name{
-  color: red !important;
+#header{
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
-.form-dark{
-  color:white;
-} */
+@media only screen and (max-width: 600px) {
+   body{
+    height: 150%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(images/contactmobile.jpg);
+    background-size: 150%;
+  }
+  .box-margin{
+    margin-top: 100px;
+    margin-bottom: 200px;
+  }
+}
