@@ -3,11 +3,16 @@
 }
 body{
   height: 100%;
-  margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-image: url(images/login.jpg);
   background-size: 100%;
+}
+#nav-bar
+{
+  position: sticky !important;
+  top:0 !important;
+  z-index: 10 !important;
 }
 .separator{
   display: flex;
@@ -25,12 +30,6 @@ body{
   border-radius: 25px;
   padding:15px;
   background-color: white;
-}
-.chbox{
-  float:left;
-  position: relative;
-  right: 225px;
-  top: 10px;
 }
 body div .button1{
   background-color: #4CAF50;
@@ -59,7 +58,7 @@ body div .button1{
   background-color: #1AA3FF;
 }
 @media only screen and (max-width: 600px) {
-  .bodycolor{
+  body{
     height: 110%;
     margin: 0;
     background-repeat: no-repeat;
