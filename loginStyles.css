@@ -51,7 +51,7 @@ body div .button1{
 .button2:hover{
   background-color: #1AA3FF;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   body{
     height: 110%;
     margin: 0;
