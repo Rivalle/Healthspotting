@@ -124,20 +124,12 @@
       </div>
     </div>
     </div>
-
-
       <!-- Tips section -->
       <div id="tips">
         <div id="firstline" class="jumbotron text-center container ">
-
                 <h2>3 Tips to Stay Healthy in Quarantine</h2>
                   <p name="about" style="justify">During quarantine, it’s hard to stay physically healthy with no access to lots of gym equipment.
                      As of late, all the fitness centers in CT are closed until further notice. Worried about the Quarantine 15? Here are some tips to stay healthy during this time.</p>
-
-
-              <!--<div class="col-sm-5">
-              <img class="img-fluid" src="images/4tips.jpeg" alt="">
-            </div>-->
 
         </div>
         <div class="container">
@@ -182,12 +174,8 @@
                         Meditation and deep breaths can help you remain calm and keep your mind sharp. For optimal mental and physical health, it is also very important that you are eating right!
                         Replace sugary drinks with water and be sure to eat your fruits and vegetables while cutting back on salt, sugar, and fat.</p>
                 </div>
-
-
               </div>
             </div>
-
-
           </div>
     <!-- footer -->
     <footer class="footer-dark">
