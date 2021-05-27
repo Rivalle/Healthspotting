@@ -5,7 +5,6 @@
     <title>HealthSpotting</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" type="text/css" href="Educatestyles.css">
-    <link rel="stylesheet" type="text/css" href="Karlosstyles2.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
@@ -24,29 +23,29 @@
     <section id="nav-bar">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="Index.html">HEALTHSPOTTING</a>
+          <a class="navbar-brand" href="Index.php">HEALTHSPOTTING</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="Index.html">Home</a>
+                <a class="nav-link active" aria-current="page" href="Index.php">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link"  href="Contact.html">Contact</a>
+                <a class="nav-link"  href="Contact.php">Contact</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="Articles.html">Information</a>
+                <a class="nav-link" href="Articles.php">Information</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link"  href="EducateYourself.html">Educate</a>
+                <a class="nav-link"  href="EducateYourself.php">Educate</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link"  href="CalculateYourself.html">Calculate</a>
+                <a class="nav-link"  href="CalculateYourself.php">Calculate</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link border border-dark rounded" id="login" href="login.html">Login/Sign-up</a>
+                <a class="nav-link border border-dark rounded" id="login" href="login.php">Login/Sign-up</a>
               </li>
             </ul>
           </div>
@@ -149,11 +148,11 @@
                 <div class="col-sm-6 col-md-3 item">
                     <h3>Navigate</h3>
                     <ul>
-                        <li><a href="Index.html">Home</a></li>
-                        <li><a href="Contact.html">Contact</a></li>
-                        <li><a href="Articles.html">Articles</a></li>
-                        <li><a href="EducateYourself.html">Educate</a></li>
-                        <li><a href="CalculateYourself.html">Calculate</a></li>
+                      <li><a href="Index.php">Home</a></li>
+                      <li><a href="Contact.php">Contact</a></li>
+                      <li><a href="Articles.php">Articles</a></li>
+                      <li><a href="EducateYourself.php">Educate</a></li>
+                      <li><a href="CalculateYourself.php">Calculate</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-6 col-md-3 item">
