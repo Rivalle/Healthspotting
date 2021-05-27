@@ -62,7 +62,7 @@
         </label>
       </div>
     <button class="button1" type="button" name="button">Enter</button>
-    <button class="button2" type="button" name="button">Register</button>
+    <button class="button2" type="button" name="button">Sign-up</button>
   </div>
   <!-- footer -->
   <footer class="footer-dark">
