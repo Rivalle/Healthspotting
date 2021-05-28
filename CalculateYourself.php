@@ -50,12 +50,22 @@
         </div>
       </nav>
     </section>
+    <!-- Top wallpaper -->
+    <section id="home" class="main-effects parallax-section">
+      <div class=" container">
+      <div class="row justify-content-center">
+        <div class="col-md-12 col-sm-12">
+        </div>
+      </div>
+      </div>
+    </section>
     <!-- BMI and DCI  -->
     <section class="container-fluid">
       <br>
       <div class="container box-margin">
         <div class="row justify-content-center">
           <div class="col-md-8 col-sm-8">
+            <h1 class="text-center" id="header">Calculate your Body and your Stomach!</h1>
               <div class="card cardimage ">
                 <div class="text-center">
                   <h3 id="header">BMI Calculator</h3>

@@ -7,22 +7,23 @@
 .image{
   box-shadow: 5px 5px 5px black;
 }
-body {
-	background: linear-gradient(to bottom right, red, orange, dodgerblue, deepskyblue);
-	background-size: 200% 200%;
-	animation: gradient 4s ease infinite;
+.main-effects{
+  background: url(images/calculate.jpg);
+  background-repeat: no-repeat;
+  height: 60vh;
 }
-
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+#home h1{
+    left: 0;
+    line-height: 200px;
+    margin-top: 150px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    font-weight: bolder;
+    font-size: 60px;
+    color: white;
+    font-family: serif;
 }
 input[type=number], #message{
   padding: 15px;
@@ -33,6 +34,11 @@ input[type=number], #message{
   margin-bottom: 10px;
   box-sizing: border-box;
   background: transparent;
+}
+#header{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: center;
 }
 #bmi-btn,#bmr-btn{
   margin-top: 20px;
