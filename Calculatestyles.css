@@ -1,25 +1,12 @@
 *{
   font-family: Arial;
 }
-.separator{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  align-items: center;
-  height: 100vh;
-  width: inherit;
-}
-.box2{
-  position: relative;top:20px; left:20px;
-}
 .h3{
   color:black; text-shadow: 2px 2px 2px white;
 }
 .image{
   box-shadow: 5px 5px 5px black;
 }
-
 body {
 	background: linear-gradient(to bottom right, red, orange, dodgerblue, deepskyblue);
 	background-size: 200% 200%;
@@ -36,4 +23,32 @@ body {
 	100% {
 		background-position: 0% 50%;
 	}
+}
+input[type=number], #message{
+  padding: 15px;
+  border: 1px solid grey;
+  border-radius: 3px;
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  background: transparent;
+}
+#bmi-btn,#bmr-btn{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#radiomale,#radiofem{
+  margin-top: 10px;
+}
+#result, #result2{
+  font-weight: bolder;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
 }

@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="calculate.js"></script>
+    </script>
   </head>
   <body class="bodypic">
     <!-- Navigation bar -->
@@ -51,27 +53,57 @@
     <!-- BMI and DCI  -->
     <section class="container-fluid">
       <br>
-      <div class="row justify-content-center row2">
-        <div class="col-sm-4">
-          <div class="card card2">
-            <img src="images/bmipic.jpg" class="card-img-top" alt="bmi picture">
-            <div class="card-body">
-              <h5 class="card-title">Calculate your BMI!</h5>
-              <p class="card-text">Body mass index (BMI) is a value derived from the mass (weight) and height of a person.
-                The BMI is a convenient rule of thumb used to broadly categorize a person as underweight, normal weight, overweight, or obese based on tissue mass (muscle, fat, and bone) and height.</p>
-              <a href="#" class="btn btn-primary">Lets go!</a>
-            </div>
+      <div class="container box-margin">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-sm-8">
+              <div class="card cardimage ">
+                <div class="text-center">
+                  <h3 id="header">BMI Calculator</h3>
+                  <div class="md-form">
+                    <p>Weight(in Kg):</p>
+                    <input class="form-control" type="number" id="weight" placeholder="Weight">
+                  </div>
+                  <div class="md-form">
+                    <p>Height(in Cm):</p>
+                    <input class="form-control" type="number"  id="height" placeholder="Height">
+                  </div>
+                  <div class="md-form">
+                    <div id="result"></div>
+                  </div>
+                  <button class="btn btn-success btn-rounded " type="button" id="bmi-btn" >Calculate BMI</button>
+                </div>
+              </div>
           </div>
         </div>
-        <div class="col-sm-4">
-          <div class="card" style="width:auto;">
-            <img src="images/dailycalories.jpg" class="card-img-top" alt="calintake picture">
-            <div class="card-body">
-              <h5 class="card-title">Calculate your daily calorie intake!</h5>
-              <p class="card-text">Calories are a measure of how much energy food or drink contains. An ideal daily intake of calories varies depending on age, metabolism and levels of physical activity, among other things.
-              </p>
-              <a href="#" class="btn btn-primary">Lets go!</a>
-            </div>
+      </div>
+      <div class="container box-margin" style="margin-top:20px;">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-sm-8">
+              <div class="card cardimage ">
+                <div class="text-center">
+                  <h3 id="header">Daily Caloric Intake</h3>
+                  <div class="md-form">
+                    <p>Weight(in Kg):</p>
+                    <input class="form-control" type="number" id="weight2" placeholder="Weight">
+                  </div>
+                  <div class="md-form">
+                    <p>Height(in Cm):</p>
+                    <input class="form-control" type="number"  id="height2" placeholder="Height">
+                  </div>
+                  <div class="md-form">
+                    <p>Age:</p>
+                    <input class="form-control" type="number"  id="age" placeholder="Age">
+                  </div>
+                  <div class="md-form">
+                    <input type="radio" id="radiomale" name="gender" value="male" checked> Male<br>
+                    <input type="radio" id="radiofem" name="gender" value="female"> Female<br>
+                  </div>
+                  <div class="md-form">
+                    <div id="result2"></div>
+                  </div>
+                  <button class="btn btn-success btn-rounded " type="button" id="bmr-btn">Calculate BMR</button>
+                </div>
+              </div>
           </div>
         </div>
       </div>
