@@ -16,38 +16,9 @@
   </head>
   <body>
     <!-- Navigation bar -->
-    <section id="nav-bar">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="Index.php">HEALTHSPOTTING</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="Index.php">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link"  href="Contact.php">Contact</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Articles.php">Information</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link"  href="EducateYourself.php">Educate</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link"  href="CalculateYourself.php">Calculate</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link border border-dark rounded" id="login" href="login.php">Login/Sign-up</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </section>
+    <?php
+      include_once 'assets/navbar.php';
+     ?>
     <!-- Top wallpaper -->
     <section id="home" class="main-effects parallax-section">
       <div class=" container">
@@ -130,34 +101,8 @@
         </div>
     </section>
     <!-- footer -->
-    <footer class="footer-dark">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6 col-md-3 item">
-                    <h3>Navigate</h3>
-                    <ul>
-                      <li><a href="Index.php">Home</a></li>
-                      <li><a href="Contact.php">Contact</a></li>
-                      <li><a href="Articles.php">Articles</a></li>
-                      <li><a href="EducateYourself.php">Educate</a></li>
-                      <li><a href="CalculateYourself.php">Calculate</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-6 col-md-3 item">
-                    <h3>Contact</h3>
-                    <ul>
-                        <li><a href="#">Email: healthspotting@gmail.com</a></li>
-                        <li><a href="#">Tel: +302143455323</a></li>
-                        <li><a href="#">Address: Aristotle U, GR</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-6 item text">
-                    <h3>HealthSpotting</h3>
-                    <p>Discover your perfect self</p>
-                </div>
-                <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
-            </div>
-        </div>
-    </footer>
+    <?php
+      include_once 'assets/footer.php';
+     ?>
     </body>
 </html>
