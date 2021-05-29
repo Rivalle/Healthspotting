@@ -20,21 +20,21 @@
     include_once '../assets/navbar.php';
    ?>
   <!-- Username and Password -->
-  <div class="separator">
+  <form class="separator">
     <h4>Log in to your account</h4>
     <hr>
     <input type="text" class="form-control" placeholder="Username" autofocus="" autocomplete="off" maxlength="80" >
     <hr>
     <input type="password" class="form-control" placeholder="Password" maxlength="25" >
       <div class="form-check">
-        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+        <input class="form-check-input" type="checkbox"  id="flexCheckChecked" checked>
         <label class="form-check-label" for="flexCheckChecked">
           Remember me
         </label>
       </div>
     <button class="button1" type="button" name="button">Enter</button>
     <button class="button2" type="button" name="button" onclick="window.location.href='signup.php'">Sign-up</button>
-  </div>
+  </form>
   <!-- footer -->
   <?php
     include_once '../assets/footer.php';

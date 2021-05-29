@@ -25,7 +25,10 @@ body{
   padding:15px;
   background-color: white;
 }
-body div .button1{
+body form input{
+  margin-top: 10px;
+}
+.button1{
   background-color: #4CAF50;
   height: 40px;
   width: 200px;

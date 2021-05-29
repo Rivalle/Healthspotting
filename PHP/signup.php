@@ -20,19 +20,16 @@
     include_once '../assets/navbar.php';
    ?>
   <!-- Register forms -->
-  <div class="separator">
+  <form class="separator" action="../assets/signupAsset.php" method="post">
     <h4>Create an account</h4>
     <hr>
-    <input type="text" class="form-control" placeholder="Username" autofocus="" autocomplete="off" maxlength="80" >
-    <hr>
-    <input type="text" class="form-control" placeholder="Email Address" maxlength="25" >
-    <hr>
-    <input type="password" class="form-control" placeholder="Password" maxlength="25" >
-    <hr>
-    <input type="password" class="form-control" placeholder="Repeat Password" maxlength="25" >
-    <button class="button1" type="button" name="button">Enter</button>
+    <input type="text" class="form-control" placeholder="Username" name="name" autocomplete="off" maxlength="80" >
+    <input type="text" class="form-control" placeholder="Email Address" name="email" autocomplete="off" maxlength="25" >
+    <input type="password" class="form-control" placeholder="Password" name="pass" maxlength="25" >
+    <input type="password" class="form-control" placeholder="Repeat Password" name="passrep" maxlength="25" >
+    <button class="button1" type="submit" name="submit">Submit</button>
     <button class="button2" type="button" name="button" onclick="window.location.href='login.php'">Log-in</button>
-  </div>
+  </form>
   <!-- footer -->
   <?php
     include_once '../assets/footer.php';
