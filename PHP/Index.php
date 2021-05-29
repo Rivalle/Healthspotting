@@ -6,7 +6,7 @@
     <meta name="author" content="">
     <meta name="description" content="A page about exercise and its effects on the mental and physical health">
     <title>HealthSpotting</title>
-    <link rel="stylesheet" type="text/css" href="CSS/indexStyles.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/indexStyles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -19,7 +19,7 @@
   <body>
       <!-- Navigation bar -->
       <?php
-        include_once 'assets/navbar.php';
+        include_once '../assets/navbar.php';
        ?>
       <!-- Carousel  -->
       <div id="slider">
@@ -32,19 +32,19 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="images/exercisevascularhealth.jpg" class="d-block w-100" alt="Picture not found">
+                <img src="../images/exercisevascularhealth.jpg" class="d-block w-100" alt="Picture not found">
                 <div class="carousel-caption">
                   <h5 class="h5form">EXERCISE</h5>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="images/meditate.jpg" class="d-block w-100" alt="Picture not found">
+                <img src="../images/meditate.jpg" class="d-block w-100" alt="Picture not found">
                 <div class="carousel-caption">
                   <h5 class="h5form">MIND</h5>
                  </div>
               </div>
               <div class="carousel-item">
-                <img src="images/topioomorfo.jpg" class="d-block w-100" alt="Picture not found">
+                <img src="../images/topioomorfo.jpg" class="d-block w-100" alt="Picture not found">
                 <div class="carousel-caption">
                   <h5 class="h5form">HEALTH & WELL-BEING</h5>
                 </div>
@@ -69,7 +69,7 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-5">
-            <img class="img-fluid" src="images/covid.jpg" alt="">
+            <img class="img-fluid" src="../images/covid.jpg" alt="">
           </div>
             <div class="col-md-6">
               <h2>Quarantine and Isolation</h2>
@@ -106,7 +106,7 @@
         <div class="container">
           <div class="row">
             <div class="col-sm-3 col-lg-5">
-              <img class="img-fluid" src="images/online.jpg" alt="">
+              <img class="img-fluid" src="../images/online.jpg" alt="">
             </div>
 
               <div class="col-lg-6 col-sm-3">
@@ -126,14 +126,14 @@
                       If you decide to go outside to walk or exercise, be sure to maintain at least a 1-meter distance from other people.</p>
               </div>
               <div class="col-sm-3 col-lg-5">
-                <img class="img-fluid" src="images/walk.jpg" alt="">
+                <img class="img-fluid" src="../images/walk.jpg" alt="">
               </div>
             </div>
           </div>
             <div class="container">
               <div class="row">
                 <div class="col-sm-3 col-lg-5">
-                  <img class="img-fluid" src="images/meditate2.jpg" alt="">
+                  <img class="img-fluid" src="../images/meditate2.jpg" alt="">
                 </div>
                   <div class="col-lg-6 col-sm-3">
                     <h2>RELAX AND TAKE CARE OF YOURSELF</h2>
@@ -146,7 +146,7 @@
           </div>
     <!-- footer -->
     <?php
-      include_once 'assets/footer.php';
+      include_once '../assets/footer.php';
      ?>
     </body>
 </html>

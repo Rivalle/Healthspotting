@@ -3,8 +3,8 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HealthSpotting</title>
-  <link rel="stylesheet" type="text/css" href="CSS/indexStyles.css">
-  <link rel="stylesheet" type="text/css" href="CSS/Articlesstyles.css">
+  <link rel="stylesheet" type="text/css" href="../CSS/indexStyles.css">
+  <link rel="stylesheet" type="text/css" href="../CSS/Articlesstyles.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
@@ -17,7 +17,7 @@
 <body class="bodycolor">
   <!-- Navigation bar -->
   <?php
-    include_once 'assets/navbar.php';
+    include_once '../assets/navbar.php';
    ?>
    <section id="home" class="main-effects parallax-section">
      <div class=" container">
@@ -39,13 +39,13 @@
              </div>
            </div>
            <div class="col-md-6">
-             <img src="images/mental.jpg" class="img-fluid"alt="">
+             <img src="../images/mental.jpg" class="img-fluid"alt="">
            </div>
          </div>
 
          <div class="row">
            <div class="col-md-6">
-             <img src="images/depression.jpg" class="img-fluid"alt="">
+             <img src="../images/depression.jpg" class="img-fluid"alt="">
            </div>
            <div class="col-md-6">
              <div class="message-box">
@@ -64,13 +64,13 @@
            </div>
 
            <div class="col-md-6">
-             <img src="images/stress.png" class="img-fluid"alt="">
+             <img src="../images/stress.png" class="img-fluid"alt="">
            </div>
          </div>
 
          <div class="row">
            <div class="col-md-6">
-             <img src="images/flash.jpg" class="img-fluid"alt="">
+             <img src="../images/flash.jpg" class="img-fluid"alt="">
            </div>
            <div class="col-md-6">
              <div class="message-box">
@@ -90,7 +90,7 @@
              </div>
            </div>
            <div class="col-md-6">
-             <img src="images/ptsd.jpg" class="img-fluid"alt="">
+             <img src="../images/ptsd.jpg" class="img-fluid"alt="">
            </div>
          </div>
        </div>
@@ -98,7 +98,7 @@
    </section>
   <!-- footer -->
   <?php
-    include_once 'assets/footer.php';
+    include_once '../assets/footer.php';
    ?>
   </body>
 </html>
