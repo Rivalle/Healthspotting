@@ -29,7 +29,35 @@
     <input type="password" class="form-control" placeholder="Repeat Password" name="passrep" maxlength="25" >
     <button class="button1" type="submit" name="submit">Submit</button>
     <button class="button2" type="button" name="button" onclick="window.location.href='login.php'">Log-in</button>
+    <?php
+
+      if (isset($_GET["error"])) {
+        if ($_GET["error"] == "emptyinput") {
+          echo "<p>Fill in all fields!</p>";
+        }
+        else if ($_GET["error"] == "invalidname") {
+          echo "<p>Invalid Name</p>";
+        }
+        else if ($_GET["error"] == "invalidemail") {
+          echo "<p>Invalid Email</p>";
+        }
+        else if ($_GET["error"] == "passnotmatch") {
+          echo "<p>Passwords do not match</p>";
+        }
+        else if ($_GET["error"] == "stmtfailed") {
+          echo "<p>Something went wrong. Try again</p>";
+        }
+        else if ($_GET["error"] == "nametaken") {
+          echo "<p>Username already taken</p>";
+        }
+        else if ($_GET["error"] == "emailaken") {
+          echo "<p>Email already taken</p>";
+        }
+      }
+
+     ?>
   </form>
+
   <!-- footer -->
   <?php
     include_once '../assets/footer.php';

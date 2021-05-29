@@ -20,20 +20,37 @@
     include_once '../assets/navbar.php';
    ?>
   <!-- Username and Password -->
-  <form class="separator">
+  <form class="separator" action="../assets/loginAsset.php" method="post">
     <h4>Log in to your account</h4>
     <hr>
-    <input type="text" class="form-control" placeholder="Username" autofocus="" autocomplete="off" maxlength="80" >
+    <input type="text" class="form-control" placeholder="Username/Email" name="username" autocomplete="off" maxlength="80" >
     <hr>
-    <input type="password" class="form-control" placeholder="Password" maxlength="25" >
+    <input type="password" class="form-control" placeholder="Password" name="pass" maxlength="25" >
       <div class="form-check">
         <input class="form-check-input" type="checkbox"  id="flexCheckChecked" checked>
         <label class="form-check-label" for="flexCheckChecked">
           Remember me
         </label>
       </div>
-    <button class="button1" type="button" name="button">Enter</button>
+    <button class="button1" type="submit" name="submit">Enter</button>
     <button class="button2" type="button" name="button" onclick="window.location.href='signup.php'">Sign-up</button>
+    <hr>
+    <?php
+    if (isset($_GET["error"])) {
+      if ($_GET["error"] == "none") {
+        echo "<p>You have successfully signed up!</p>";
+      }
+      else if ($_GET["error"] == "emptyinput") {
+        echo "<p>Fill in all fields!</p>";
+      }
+      else if ($_GET["error"] == "wrongloginname") {
+        echo "<p>Incorrect name or email</p>";
+      }
+      else if ($_GET["error"] == "wrongloginpass") {
+        echo "<p>Incorrect password</p>";
+      }
+    }
+       ?>
   </form>
   <!-- footer -->
   <?php

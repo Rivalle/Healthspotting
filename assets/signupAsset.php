@@ -22,12 +22,16 @@ if (isset($_POST["submit"])) {
     header("location: ../PHP/signup.php?error=invalidemail");
     exit();
   }
-  if (passMatch($pass,$passrep) !== false) {
+  if (passMatch($pass, $passrep) !== false) {
     header("location: ../PHP/signup.php?error=passnotmatch");
     exit();
   }
   if (nameExists($conn, $name, $email) !== false) {
     header("location: ../PHP/signup.php?error=nametaken");
+    exit();
+  }
+  if (emailExists($conn, $email) !== false) {
+    header("location: ../PHP/signup.php?error=emailtaken");
     exit();
   }
   createUser($conn, $name, $email, $pass);

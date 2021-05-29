@@ -1,3 +1,7 @@
+<?php
+    session_start();
+ ?>
+
 <div id="nav-bar">
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
@@ -22,9 +26,16 @@
           <li class="nav-item">
             <a class="nav-link"  href="CalculateYourself.php">Calculate</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link border border-dark rounded" id="login" href="login.php">Login/Sign-up</a>
-          </li>
+          <?php
+              if (isset($_SESSION["username"])){
+                echo "<li class='nav-item'><a class='nav-link'  href='profile.php'>Profile</a></li>";
+                echo "<li class='nav-item'><a class='nav-link'  href='../assets/logout.php'>Log out</a></li>";
+              }
+              else{
+                echo "<li class='nav-item'><a class='nav-link border border-dark rounded' id='login' href='login.php'>Login</a></li>";
+                echo "<li class='nav-item'><a class='nav-link border border-dark rounded' id='signup' href='signup.php'>Sign-up</a></li>";
+              }
+           ?>
         </ul>
       </div>
     </div>
