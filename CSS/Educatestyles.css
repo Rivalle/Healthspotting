@@ -23,7 +23,7 @@ p,ol{
   margin-bottom: 20px;
 }
 .main-effects{
-  background: url(images/education.jpg);
+  background: url(../images/education.jpg);
   background-repeat: no-repeat;
   height: 60vh;
 }

@@ -8,7 +8,7 @@
   box-shadow: 5px 5px 5px black;
 }
 .main-effects{
-  background: url(images/calculate.jpg);
+  background: url(../images/calculate.jpg);
   background-repeat: no-repeat;
   height: 60vh;
 }

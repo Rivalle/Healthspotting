@@ -15,11 +15,9 @@
   padding-top: 22px;
   padding-bottom: 30px;
 }
-/* #about .col-md-6 img {
-    padding: 22px 0px 22px 22px;
-} */
+
 .main-effects{
-  background: url(images/2019-12-11-mountain-day-featured-01.jpg);
+  background: url(../images/2019-12-11-mountain-day-featured-01.jpg);
   background-repeat: no-repeat;
   height: 60vh;
 }
