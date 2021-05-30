@@ -9,6 +9,16 @@
                   <li><a href="Articles.php">Articles</a></li>
                   <li><a href="EducateYourself.php">Educate</a></li>
                   <li><a href="CalculateYourself.php">Calculate</a></li>
+                  <?php
+                      if (isset($_SESSION["username"])){
+                        echo "<li><a href='profile.php'>Profile</a></li>";
+                        echo "<li><a href='../assets/logout.php'>Log out</a></li>";
+                      }
+                      else{
+                        echo "<li><a href='login.php'>Login</a></li>";
+                        echo "<li><a href='signup.php'>Sign-up</a></li>";
+                      }
+                   ?>
                 </ul>
             </div>
             <div class="col-sm-6 col-md-3 item">
