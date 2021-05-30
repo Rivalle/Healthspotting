@@ -39,7 +39,12 @@ if (isset($_POST["submit"])) {
 else if (isset($_POST["delete"])){
   $uname = $_POST["uname"];
   if (nameExists($conn, $uname, $uname) === false) {
-    header("location: ../PHP/admin.php?error=namenotfound");
+    if ($uname === "") {
+      header("location: ../PHP/admin.php?error=empty");
+    }
+    else{
+      header("location: ../PHP/admin.php?error=namenotfound");
+    }
   }
   else {
     $query = "DELETE FROM users WHERE usersName = '$uname' OR usersEmail = '$uname';";

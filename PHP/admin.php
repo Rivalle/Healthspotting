@@ -100,6 +100,9 @@
                        else if ($_GET["error"] == "namenotfound") {
                          echo "<p>The User was not found</p>";
                        }
+                       else if ($_GET["error"] == "empty") {
+                         echo "<p>No user entered</p>";
+                       }
                      }
                     ?>
                  </form>
