@@ -21,13 +21,13 @@
             <a class="nav-link" href="Articles.php">Information</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link"  href="EducateYourself.php">Educate</a>
+            <a class="nav-link"  href="EducateYourself.php ">Educate</a>
           </li>
           <li class="nav-item">
             <a class="nav-link"  href="CalculateYourself.php">Calculate</a>
           </li>
           <?php
-              if (isset($_SESSION["username"]) == "admin"){
+              if (isset($_SESSION["username"]) && ($_SESSION["username"] == "admin")){
                 echo "<li class='nav-item'><a class='nav-link'  href='admin.php'>Admin</a></li>";
                 echo "<li class='nav-item'><a class='nav-link'  href='../assets/logout.php'>Log out</a></li>";
               }
