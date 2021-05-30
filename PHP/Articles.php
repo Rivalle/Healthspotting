@@ -19,6 +19,7 @@
   <?php
     include_once '../assets/navbar.php';
    ?>
+   <!-- Top wallpaper -->
    <section id="home" class="main-effects parallax-section">
      <div class=" container">
      <div class="row justify-content-center">

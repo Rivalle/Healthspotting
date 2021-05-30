@@ -143,3 +143,20 @@ function loginUser($conn, $username, $pass){
     exit();
   }
 }
+
+function createUserFromAdmin($conn, $name, $email, $pass){
+  $sql = "INSERT INTO users (usersName,usersEmail,userPass) VALUES (?, ?, ?);";
+  $stmt = mysqli_stmt_init($conn);
+  if (!mysqli_stmt_prepare($stmt,$sql)) {
+    header("location: ../PHP/signup.php?error=stmtfailed");
+    exit();
+  }
+
+  $hashedPass = password_hash($pass, PASSWORD_DEFAULT);
+
+  mysqli_stmt_bind_param($stmt, "sss", $name, $email, $hashedPass);
+  mysqli_stmt_execute($stmt);
+  mysqli_stmt_close($stmt);
+  header("location: ../PHP/admin.php?error=none");
+  exit();
+}
