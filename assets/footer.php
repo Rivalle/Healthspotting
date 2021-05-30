@@ -10,7 +10,11 @@
                   <li><a href="EducateYourself.php">Educate</a></li>
                   <li><a href="CalculateYourself.php">Calculate</a></li>
                   <?php
-                      if (isset($_SESSION["username"])){
+                      if (isset($_SESSION["username"]) == "admin"){
+                        echo "<li><a href='admin.php'>Admin</a></li>";
+                        echo "<li><a href='../assets/logout.php'>Log out</a></li>";
+                      }
+                      else if (isset($_SESSION["username"])){
                         echo "<li><a href='profile.php'>Profile</a></li>";
                         echo "<li><a href='../assets/logout.php'>Log out</a></li>";
                       }
