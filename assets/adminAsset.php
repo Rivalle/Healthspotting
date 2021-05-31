@@ -51,7 +51,6 @@ else if (isset($_POST["delete"])){
     $queryrun = mysqli_query($conn,$query);
     header("location: ../PHP/admin.php?error=userdeleted");
   }
-
 }
 else {
   header("location: ../PHP/admin.php");
