@@ -1,0 +1,74 @@
+*{
+  box-sizing: border-box;
+  font-family: Arial;
+}
+.main-effects{
+  background: url(../images/profile.jpg);
+  background-repeat: no-repeat;
+  height: 60vh;
+}
+.parallax-section{
+  background-size: cover!important;
+  overflow: hidden;
+  background-attachment: fixed!important;
+}
+#home h1{
+    left: 0;
+    line-height: 200px;
+    margin-top: 150px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    font-weight: bolder;
+    font-size: 60px;
+    color: white;
+    font-family: serif;
+}
+#header{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+input[type=text], input[type=password]{
+  padding: 15px;
+  border: 1px solid grey;
+  border-radius: 3px;
+  width: 15%;
+  height: 50%;
+  margin-top: 5px;
+  margin-left: 10%;
+  box-sizing: border-box;
+  background: transparent;
+}
+#submit{
+  margin: 20px;
+}
+#submit:hover{
+  background-color: #00b009;
+}
+.buttons{
+  margin-left: 10px;
+  margin-right: 20px;
+  border: 2px solid darkgrey;
+  background-color: darkgrey;
+  border-radius: 5px;
+}
+.buttons:hover{
+  border: 2px solid grey;
+  background-color: grey;
+}
+#deleteform{
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+#submits{
+  margin-left: 20px;
+  border: 2px solid red;
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+}
+#submits:hover{
+  border: 2px solid darkred;
+  background-color: darkred;
+}

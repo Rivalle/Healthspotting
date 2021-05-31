@@ -139,6 +139,7 @@ function loginUser($conn, $username, $pass){
     session_start();
     $_SESSION["userid"] = $nameexists["usersId"];
     $_SESSION["username"] = $nameexists["usersName"];
+    $_SESSION["passlen"] = strlen($passHashed);
     header("location: ../PHP/Index.php");
     exit();
   }
