@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="../JS/contact.js"></script>
   </head>
   <body>
       <!-- Navigation bar -->
@@ -28,11 +29,11 @@
                   <div class="text-center">
                     <h3 id="header">Contact <strong id="greentext">Us</strong></h3>
                     <div class="md-form">
-                      <input class="form-control" name="name" type="text" name="" value="" id="name" placeholder="Your name">
+                      <input class="form-control" name="name" type="text" id="name" placeholder="Your name">
                       <label for="name"></label>
                     </div>
                     <div class="md-form">
-                      <input class="form-control" name="email" type="text" name="" value="" id="email" placeholder="Your email">
+                      <input class="form-control" name="email" type="text" id="email" placeholder="Your email">
                       <label for="email"></label>
                     </div>
                     <div class="md-form">
