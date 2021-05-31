@@ -36,8 +36,8 @@
                 echo "<li class='nav-item'><a class='nav-link'  href='../assets/logout.php'>Log out</a></li>";
               }
               else{
-                echo "<li class='nav-item'><a class='nav-link border border-dark rounded' id='login' href='login.php'>Login</a></li>";
-                echo "<li class='nav-item'><a class='nav-link border border-dark rounded' id='signup' href='signup.php'>Sign-up</a></li>";
+                echo "<li class='nav-item'><a class='nav-link' id='login' href='login.php'>Login</a></li>";
+                echo "<li class='nav-item'><a class='nav-link' id='signup' href='signup.php'>Sign-up</a></li>";
               }
            ?>
         </ul>

@@ -61,7 +61,7 @@ body form input{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-image: url(../images/loginmobile.jpg);
-    background-size: 110%;
+    background-size: 160%;
   }
   .separator{
     display: flex;
