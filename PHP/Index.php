@@ -34,19 +34,19 @@
               <div class="carousel-item active">
                 <img src="../images/exercisevascularhealth.jpg" class="d-block w-100" alt="Picture not found">
                 <div class="carousel-caption">
-                  <h5 class="h5form">EXERCISE</h5>
+                  <h5 style="color:black;">BODY</h5>
                 </div>
               </div>
               <div class="carousel-item">
                 <img src="../images/meditate.jpg" class="d-block w-100" alt="Picture not found">
                 <div class="carousel-caption">
-                  <h5 class="h5form">MIND</h5>
+                  <h5 style="color:#0E8DCC;">MIND</h5>
                  </div>
               </div>
               <div class="carousel-item">
-                <img src="../images/topioomorfo.jpg" class="d-block w-100" alt="Picture not found">
+                <img src="../images/wellness.jpg" class="d-block w-100" alt="Picture not found">
                 <div class="carousel-caption">
-                  <h5 class="h5form">HEALTH & WELL-BEING</h5>
+                  <h5 style="color:#E4981D;">WELLNESS</h5>
                 </div>
               </div>
             </div>
@@ -76,7 +76,7 @@
                 <p name="about" style="justify">We are at a time when the rates of obesity and depression are constantly rising due to the current pandemic.
                   The website aims to inform the world about the improvement of his daily life and health, suggesting the ways in which he can
                   achieve this, as well as to mobilize the average person who needs the stimulus to upgrade his lifestyle having as tool some useful tips.
-                  For example, physical exercise contributes significantly to mental health.</p>
+                  For example, physical exercise contributes significantly to mental health. <a href="https://www.frontiersin.org/articles/10.3389/fpsyg.2020.01708/full">Read more..</a></p>
           </div>
         </div>
       </div>
@@ -100,7 +100,8 @@
         <div id="firstline" class="jumbotron text-center container ">
                 <h2>3 Tips to Stay Healthy in Quarantine</h2>
                   <p name="about" style="justify">During quarantine, it’s hard to stay physically healthy with no access to lots of gym equipment.
-                     As of late, all the fitness centers in CT are closed until further notice. Worried about the Quarantine 15? Here are some tips to stay healthy during this time.</p>
+                     As of late, all the fitness centers in CT are closed until further notice. Worried about the Quarantine 15?
+                      Here are some tips to stay healthy during this time.</p>
 
         </div>
         <div class="container">
@@ -113,7 +114,8 @@
                 <h2>FOLLOW AN ONLINE EXERCISE CLASS</h2>
                   <p name="about" style="justify">There are so many great online exercise classes out there, and all you need to join is a solid wifi connection and a clear space.
                    Some examples of full body workout classes are The Be.come project, Tracy Anderson, and Aaptiv. Glo and Yogis Anonymous are some online yoga classes also available.
-                   Peloton is a great service that offers both workout routines and bike classes, but it’s more on the pricier side. Definitely worth the cost.</p>
+                   Peloton is a great service that offers both workout routines and bike classes, but it’s more on the pricier side. Definitely worth the cost.
+                   Find the best suited for you <a href="https://www.verywellfit.com/best-online-exercise-classes-4163381">here</a>!</p>
             </div>
           </div>
         </div>
@@ -123,7 +125,8 @@
                   <h2>WALK</h2>
                     <p name="about" style="justify">Another easy one! According to the WHO, “Even in small spaces, walking around or walking on the spot, can help you remain active.
                       If you have a call, stand or walk around your home while you speak, instead of sitting down.
-                      If you decide to go outside to walk or exercise, be sure to maintain at least a 1-meter distance from other people.</p>
+                      If you decide to go outside to walk or exercise, be sure to maintain at least a 1-meter distance from other people.
+                      More on the benefits of walking <a href="https://www.betterhealth.vic.gov.au/health/healthyliving/walking-for-good-health">here</a>!</p>
               </div>
               <div class="col-sm-3 col-lg-5">
                 <img class="img-fluid" src="../images/walk.jpg" alt="">
@@ -139,7 +142,8 @@
                     <h2>RELAX AND TAKE CARE OF YOURSELF</h2>
                       <p name="about" style="justify">Being mentally active and mentally fit is just as important as being physically active and physically fit.
                         Meditation and deep breaths can help you remain calm and keep your mind sharp. For optimal mental and physical health, it is also very important that you are eating right!
-                        Replace sugary drinks with water and be sure to eat your fruits and vegetables while cutting back on salt, sugar, and fat.</p>
+                        Replace sugary drinks with water and be sure to eat your fruits and vegetables while cutting back on salt, sugar, and fat.
+                        More on the benefits of meditation <a href="https://www.mayoclinic.org/tests-procedures/meditation/in-depth/meditation/art-20045858">here</a></p>
                 </div>
               </div>
             </div>

@@ -1,6 +1,5 @@
 window.onload = () => {
     let button = document.querySelector("#submit");
-
     button.addEventListener("click", ContactInfo);
 };
 function ContactInfo(){

@@ -24,7 +24,7 @@
       <div class=" container">
       <div class="row justify-content-center">
         <div class="col-md-12 col-sm-12">
-         <h1>Education</h1>
+         <h1>Videos</h1>
         </div>
       </div>
       </div>

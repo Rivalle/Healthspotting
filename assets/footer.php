@@ -7,8 +7,8 @@
                   <li><a href="Index.php">Home</a></li>
                   <li><a href="Contact.php">Contact</a></li>
                   <li><a href="Articles.php">Articles</a></li>
-                  <li><a href="EducateYourself.php">Educate</a></li>
-                  <li><a href="CalculateYourself.php">Calculate</a></li>
+                  <li><a href="EducateYourself.php">Videos</a></li>
+                  <li><a href="CalculateYourself.php">BMI-BMR</a></li>
                   <?php
                       if (isset($_SESSION["username"]) && ($_SESSION["username"] == "admin")){
                         echo "<li><a href='admin.php'>Admin</a></li>";
@@ -28,7 +28,7 @@
             <div class="col-sm-6 col-md-3 item">
                 <h3>Contact</h3>
                 <ul>
-                    <li><a href="#">Email: healthspotting@gmail.com</a></li>
+                    <li><a href="Contact.php">Email: healthspotting@gmail.com</a></li>
                     <li><a href="#">Tel: +302143455323</a></li>
                     <li><a href="#">Address: Aristotle U, GR</a></li>
                 </ul>

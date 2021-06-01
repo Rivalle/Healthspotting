@@ -9,7 +9,18 @@ input[type=text], #message{
   margin-left: 10%;
   box-sizing: border-box;
   background: transparent;
-
+}
+#search{
+  width: 200px;
+  height: 35px;
+  padding: 5px;
+  margin-top:3px;
+  border-radius:25px grey;
+  border: none;
+  font-weight: 640;
+  font-size: 17px;
+  text-align:left;
+  margin-left: 0;
 }
 .box-margin{
   margin-top: 250px;

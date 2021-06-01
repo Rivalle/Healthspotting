@@ -23,7 +23,6 @@
   #quote p{
     font-size: 3vh;
   }
-
 }
 .navbar-nav li
 {
@@ -49,20 +48,29 @@
   font-weight: 640;
   font-size: 17px;
 }
+#search{
+  width: 150px;
+  height: 35px;
+  padding: 5px;
+  margin-top:3px;
+  border-radius:25px solid grey;
+  border: none;
+  font-weight: 600;
+  font-size: 17px;
+  text-align:left;
+}
 #slider
 {
   width: 100%;
 }
 .carousel-caption
 {
-  top: 50%;
-  transform: translateY(-50%);
+  top: 85%;
   bottom: initial!important;
 }
 .carousel-caption h5
 {
-  font-size: 7vh;
-  color: silver;
+  font-size: 6vh;
 }
 
 

@@ -18,13 +18,13 @@
             <a class="nav-link"  href="Contact.php">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Articles.php">Information</a>
+            <a class="nav-link" href="Articles.php">Articles</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link"  href="EducateYourself.php ">Educate</a>
+            <a class="nav-link"  href="EducateYourself.php ">Videos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link"  href="CalculateYourself.php">Calculate</a>
+            <a class="nav-link"  href="CalculateYourself.php">BMI-BMR</a>
           </li>
           <?php
               if (isset($_SESSION["username"]) && ($_SESSION["username"] == "admin")){
@@ -37,11 +37,22 @@
               }
               else{
                 echo "<li class='nav-item'><a class='nav-link' id='login' href='login.php'>Login</a></li>";
-                echo "<li class='nav-item'><a class='nav-link' id='signup' href='signup.php'>Sign-up</a></li>";
               }
            ?>
+           <li>
+             <input type="text" id="search" placeholder="Search">
+             <button class="btn btn-success btn-rounded" id="searchbutton" onclick="findText()">Go</button>
+           </li>
+
         </ul>
       </div>
     </div>
   </nav>
 </div>
+<script type="text/javascript">
+//function that search the page for the given word
+function findText() {
+  let text = document.getElementById("search").value;
+  window.find(text);
+}
+</script>
