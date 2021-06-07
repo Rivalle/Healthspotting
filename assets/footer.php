@@ -1,3 +1,4 @@
+//this file displays the footer on every page and changes whether the user is signed in or not
 <footer class="footer-dark">
     <div class="container">
         <div class="row">

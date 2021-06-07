@@ -1,3 +1,4 @@
+//this php file is used by the log in page
 <?php
 
 if (isset($_POST["submit"])) {

@@ -1,3 +1,4 @@
+//this php file is used to log the user out
 <?php
 
 session_start();

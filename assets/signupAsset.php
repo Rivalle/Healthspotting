@@ -1,3 +1,4 @@
+//this php file is used by the signup page
 <?php
 
 if (isset($_POST["submit"])) {
@@ -9,7 +10,7 @@ if (isset($_POST["submit"])) {
 
   require_once 'dbhandler.php';
   require_once 'functions.php';
-
+  //error handlers for user signup inputs
   if (emptyInputsSignup($name,$email,$pass,$passrep) !== false) {
     header("location: ../PHP/signup.php?error=emptyinput");
     exit();

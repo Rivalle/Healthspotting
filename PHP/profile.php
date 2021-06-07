@@ -16,6 +16,7 @@
       <script src="../JS/profile.js"></script>
     </head>
     <body>
+      <!-- Navigation bar -->
       <?php
         include_once '../assets/dbhandler.php';
         include_once '../assets/navbar.php';
@@ -96,11 +97,13 @@
   </body>
   </html>
 
+  <!-- footer -->
 <?php
   include_once '../assets/footer.php';
  ?>
 
 <script type="text/javascript">
+//function that changes the user credentials
 function makeInput(x){
     if (x == 1) {
       let input1 = document.querySelector("#input1");

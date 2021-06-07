@@ -1,3 +1,4 @@
+//javascript file that is used by the Calculateyourself page
 window.onload = () => {
     let button = document.querySelector("#bmi-btn");
     let button2 = document.querySelector("#bmr-btn");
@@ -5,6 +6,7 @@ window.onload = () => {
     button.addEventListener("click", BMI);
     button2.addEventListener("click", BMR);
 };
+
 // Function for calculating BMI
 function BMI(){
   let weight = parseInt(document.querySelector("#weight").value);

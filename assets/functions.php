@@ -1,5 +1,6 @@
 <?php
 
+//function that checks if the inputs were empty
 function emptyInputsSignup($name,$email,$pass,$passrep){
   $result;
   if (empty($name) || empty($email) || empty($pass) || empty($passrep)) {
@@ -11,6 +12,7 @@ function emptyInputsSignup($name,$email,$pass,$passrep){
   return $result;
 }
 
+//function that checks if the name given was valid
 function invalidName($name){
   $result;
   if (!preg_match("/^[a-zA-Z0-9]*$/", $name)) {
@@ -22,6 +24,7 @@ function invalidName($name){
   return $result;
 }
 
+//function that checks if the email given was valid
 function invalidEmail($email){
   $result;
   if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
@@ -33,6 +36,7 @@ function invalidEmail($email){
   return $result;
 }
 
+//function that checks whether the passwords were the same
 function passMatch($pass,$passrep){
   $result;
   if ($pass !== $passrep) {
@@ -44,6 +48,7 @@ function passMatch($pass,$passrep){
   return $result;
 }
 
+//function that checks if the name or email entered exists
 function nameExists($conn, $name, $email){
   $sql = "SELECT * FROM users WHERE usersName = ? OR usersEmail=?;";
   $stmt = mysqli_stmt_init($conn);
@@ -68,6 +73,7 @@ function nameExists($conn, $name, $email){
   mysqli_stmt_close($stmt);
 }
 
+//function that checks if the email given already exists
 function emailExists($conn, $email){
   $sql = "SELECT * FROM users WHERE usersEmail = ?;";
   $stmt = mysqli_stmt_init($conn);
@@ -92,6 +98,7 @@ function emailExists($conn, $email){
   mysqli_stmt_close($stmt);
 }
 
+//function that creates the user
 function createUser($conn, $name, $email, $pass){
   $sql = "INSERT INTO users (usersName,usersEmail,userPass) VALUES (?, ?, ?);";
   $stmt = mysqli_stmt_init($conn);
@@ -109,6 +116,7 @@ function createUser($conn, $name, $email, $pass){
   exit();
 }
 
+//function that checks if the login inputs are empty
 function emptyInputsLogin($name, $pass){
   $result;
   if (empty($name) || empty($pass)) {
@@ -120,6 +128,7 @@ function emptyInputsLogin($name, $pass){
   return $result;
 }
 
+//function that logs the user in
 function loginUser($conn, $username, $pass){
   $nameexists = nameExists($conn, $username, $username);
 
@@ -144,6 +153,7 @@ function loginUser($conn, $username, $pass){
   }
 }
 
+//function that is used by the admin page to create a user manually
 function createUserFromAdmin($conn, $name, $email, $pass){
   $sql = "INSERT INTO users (usersName,usersEmail,userPass) VALUES (?, ?, ?);";
   $stmt = mysqli_stmt_init($conn);

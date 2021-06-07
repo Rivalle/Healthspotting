@@ -30,6 +30,7 @@
     <button class="button1" type="submit" name="submit">Submit</button>
     <button class="button2" type="button" name="button" onclick="window.location.href='login.php'">Log-in</button>
     <?php
+    //error handling messages
       if (isset($_GET["error"])) {
         if ($_GET["error"] == "emptyinput") {
           echo "<p>Fill in all fields!</p>";

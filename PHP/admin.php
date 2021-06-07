@@ -15,6 +15,7 @@
       <link rel="stylesheet" href="assets/css/style.css">
     </head>
     <body>
+      <!-- Navigation bar -->
       <?php
         include_once '../assets/dbhandler.php';
         include_once '../assets/navbar.php';
@@ -45,6 +46,7 @@
                   <input class="form-control" type="password" placeholder="Repeat Password" name="passrep" maxlength="25" >
                   <button class="btn btn-success btn-rounded " type="submit" name="submit" id="submit" >Submit</button>
                   <?php
+                  //error handling messages
                     if (isset($_GET["error"])) {
                       if ($_GET["error"] == "emptyinput") {
                         echo "<p>Fill in all fields!</p>";
@@ -112,7 +114,7 @@
     </div>
     </body>
   </html>
-
+<!-- footer -->
 <?php
   include_once '../assets/footer.php';
  ?>

@@ -1,3 +1,4 @@
+//this php file is used by the admin control page
 <?php
 
 require_once 'dbhandler.php';
@@ -9,7 +10,7 @@ if (isset($_POST["submit"])) {
   $pass = $_POST["pass"];
   $passrep = $_POST["passrep"];
 
-
+  //error handlers for user creation inputs
   if (emptyInputsSignup($name,$email,$pass,$passrep) !== false) {
     header("location: ../PHP/admin.php?error=emptyinput");
     exit();
