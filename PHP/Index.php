@@ -69,7 +69,7 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-5">
-            <img class="img-fluid" src="../images/covid.jpg" alt="">
+            <img class="img-fluid" src="../images/covid.jpg" alt="Picture not found">
           </div>
             <div class="col-md-6">
               <h2>Quarantine and Isolation</h2>
@@ -107,7 +107,7 @@
         <div class="container">
           <div class="row">
             <div class="col-sm-3 col-lg-5">
-              <img class="img-fluid" src="../images/online.jpg" alt="">
+              <img class="img-fluid" src="../images/online.jpg" alt="Picture not found">
             </div>
 
               <div class="col-lg-6 col-sm-3">
@@ -129,14 +129,14 @@
                       More on the benefits of walking <a href="https://www.betterhealth.vic.gov.au/health/healthyliving/walking-for-good-health">here</a>!</p>
               </div>
               <div class="col-sm-3 col-lg-5">
-                <img class="img-fluid" src="../images/walk.jpg" alt="">
+                <img class="img-fluid" src="../images/walk.jpg" alt="Picture not found">
               </div>
             </div>
           </div>
             <div class="container">
               <div class="row">
                 <div class="col-sm-3 col-lg-5">
-                  <img class="img-fluid" src="../images/meditate2.jpg" alt="">
+                  <img class="img-fluid" src="../images/meditate2.jpg" alt="Picture not found">
                 </div>
                   <div class="col-lg-6 col-sm-3">
                     <h2>RELAX AND TAKE CARE OF YOURSELF</h2>

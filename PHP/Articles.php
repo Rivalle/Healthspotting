@@ -41,13 +41,13 @@
              </div>
            </div>
            <div class="col-md-6">
-             <img src="../images/mental.jpg" class="img-fluid"alt="">
+             <img src="../images/mental.jpg" class="img-fluid" alt="Picture not found">
            </div>
          </div>
 
          <div class="row">
            <div class="col-md-6">
-             <img src="../images/depression.jpg" class="img-fluid"alt="">
+             <img src="../images/depression.jpg" class="img-fluid" alt="Picture not found">
            </div>
            <div class="col-md-6">
              <div class="message-box">
@@ -68,13 +68,13 @@
            </div>
 
            <div class="col-md-6">
-             <img src="../images/stress.png" class="img-fluid"alt="">
+             <img src="../images/stress.png" class="img-fluid" alt="Picture not found">
            </div>
          </div>
 
          <div class="row">
            <div class="col-md-6">
-             <img src="../images/flash.jpg" class="img-fluid"alt="">
+             <img src="../images/flash.jpg" class="img-fluid" alt="Picture not found">
            </div>
            <div class="col-md-6">
              <div class="message-box">
@@ -94,7 +94,7 @@
              </div>
            </div>
            <div class="col-md-6">
-             <img src="../images/ptsd.jpg" class="img-fluid"alt="">
+             <img src="../images/ptsd.jpg" class="img-fluid" alt="Picture not found">
            </div>
          </div>
        </div>

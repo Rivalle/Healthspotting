@@ -1,4 +1,4 @@
-//this file displays the footer on every page and changes whether the user is signed in or not
+<!-- this file displays the navbar on every page and changes whether the user is signed in or not -->
 <?php
     session_start();
  ?>

@@ -1,4 +1,4 @@
-//php file that creates the connection with the database
+<!-- php file that creates the connection with the database -->
 <?php
 
 $serverName = "localHost";

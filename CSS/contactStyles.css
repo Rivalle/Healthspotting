@@ -11,7 +11,7 @@ input[type=text], #message{
   background: transparent;
 }
 #search{
-  width: 200px;
+  width: 150px;
   height: 35px;
   padding: 5px;
   margin-top:3px;
@@ -20,7 +20,7 @@ input[type=text], #message{
   font-weight: 640;
   font-size: 17px;
   text-align:left;
-  margin-left: 0;
+  margin-left: 0 !important;
 }
 .box-margin{
   margin-top: 250px;
